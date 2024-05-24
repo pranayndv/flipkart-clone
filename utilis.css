@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Potta+One&family=Roboto+Mono:wght@200&family=Roboto:wght@300;500&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+.mx-2 {
+    margin: 0 2px;
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.plus {
+    color: yellow;
+    font-size: 12px;
+    font-family: Roboto, sans-serif;
+}
+
+.explore {
+    color: white;
+    font-size: 12px;
+    font-family: Roboto, sans-serif;
+}
+
+.u:hover {
+    text-decoration: underline;
+}
+
+.box {
+    width: 114px;
+    height: 114px;
+    margin: 30px 15px;
+    background-size: cover;
+}
+
+.box img {
+    width: 114px;
+    height: 114px;
+    background-size: cover;
+    border-radius:77px ;
+}
+.line{
+    background-color: grey;
+    height: 1.02px;
+    width: 100vw;
+    opacity: 0.3;
+    box-shadow:.02px grey;
+}

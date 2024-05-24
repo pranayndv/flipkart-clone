@@ -1,0 +1,146 @@
+@media screen and (max-width:950px) {
+    .imgBox {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image {
+        margin-top: 5px;
+        width: 60px;
+    }
+
+    .image1 {
+        width: 6px;
+    }
+
+    nav {
+        display: flex;
+        background-color: #2874f0;
+        height: 80px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 242px;
+    }
+
+    nav ul {
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav ul li {
+        list-style: none;
+        color: white;
+        margin: 0 10px;
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 10px;
+    }
+
+    .search {
+        width: 311px;
+        height: 32px;
+        border-radius: 0px;
+        margin: 0 12px;
+        padding: 5px;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 1px;
+        font-family: Arial, sans-serif;
+        color: rgb(52, 49, 49);
+        position: relative;
+        left: 444px;
+        top: 38px;
+
+    }
+
+    .btn {
+        border-radius: 0px;
+        width: 63px;
+        height: 25px;
+        margin: 0 0 0 105px;
+        color: #2874f0;
+        background-color: white;
+        border: none;
+        font-family: Roboto, Arial, sans-serif;
+    }
+
+    #more {
+        background-color: #2874f0;
+        width: 58px;
+        color: white;
+        border: none;
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 10px;
+    }
+
+        .mx-2 {
+            margin: 0 2px;
+            color: white;
+            font-family: Roboto, Arial, sans-serif;
+        }
+
+        .mx-2 {
+            margin: 0 2px;
+            color: white;
+            font-family: Roboto, Arial, sans-serif;
+            font-size: 10px;
+        }
+        .box {
+            width: 50px;
+            height: 50px;
+            margin: 30px 15px;
+            background-size: cover;
+            
+        }
+        
+        .box img {
+            width: 50px;
+            height: 50px;
+            background-size: cover;
+            border-radius:77px ;
+        }
+        .container1{
+            height: 32vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 15px;
+            overflow: scroll;
+        }
+        .slide{ 
+            height: 31vh;
+            width: 72vw;
+           
+          }
+          .slide img{ 
+            height: 31vh;
+              width: 72vw;
+              border-radius: 8px;
+              box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            }
+            .foot {
+                background-color: rgb(33, 25, 40);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                height: 28px;
+                font-family: Roboto,Arial,sans-serif;
+                font-size: 10px;
+              }
+              .container{
+                min-height: calc(100vh - 50px - 50px - 32vh);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                }
+}
